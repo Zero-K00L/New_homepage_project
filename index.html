@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css"/>
+ <!--  <link href="https://fonts.google.com/specimen/Inter" rel="stylesheet"/> -->
+  
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+<div class="wrapper">
+  <header>
+    <div id="overlay" class="overlay has-fade">
+      <div class="header__display">
+        <a href="">Home</a>
+        <a href="">New</a>
+        <a href="">Popular</a>
+        <a href="">Trending</a>
+        <a href="">Categories</a>
+      </div>
+    </div>
+
+    <div id="overlay2"class="overlay__2 has-fade2">
+    </div>
+    
+    <nav class="px">
+      <a href="/" class="header__logo">
+        <img src="images/logo.svg" alt="News Homepage Logo"/>
+      </a>
+      <div class="header__links">
+        <a href="#" class="header__home link">Home</a><a href="#" class="header__new link">New</a><a href="#" class="header__popular link">Popular</a><a href="#" class="header__trending link">Trending</a><a href="#" class="header__categories link">Categories</a>
+      </div> 
+      <div class="header__menu_container">
+        <a href="#" id="btnHamburger" class="header__menu">
+          <span class="hamburger_menu"></span>
+          <span class="hamburger_menu"></span>
+          <span class="hamburger_menu"></span>
+        </a>
+      </div>
+      
+    </nav>
+  </header>
+  
+  <section class="hero">
+    <div class="container image__container">
+      <div class="hero__image">
+      </div>
+      <div class="hero__text">
+        <h1 class="hero__header">The Bright Future of Web 3.0?</h1>
+        <p class="hero__p">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+          But is it really fulfilling its promise?</p>
+      </div>
+    <div class="cta__container">  
+      <button type="button" class="hero__cta">READ MORE</button>
+    </div>  
+    </div>
+  </section>
+
+  <div class="aside__container">
+    <aside class="aside">
+      <h2 class="aside__padding">New</h2>
+      <a href="#">
+        <h3 class="aside__padding aside__title_1">Hydrogen VS Electric Cars</h3>
+      </a>  
+      <p class="aside__padding aside__p_1">Will hydrogen-fueled cars ever catch up to EVs?</p>
+      <span class="lineBreak lineBreak_1"></span>
+      <a href="#">
+        <h3 class="aside__padding aside__title_2">The Downsides of AI Artistry</h3>
+      </a>  
+      <p class="aside__padding aside__p_2">What are the possible adverse effects of on-demand AI image generation?</p>
+      <span class="lineBreak lineBreak_2"></span>
+      <a href="#">
+        <h3 class="aside__padding aside__title_3">Is VC Funding Drying Up?</h3>
+      </a>  
+      <p class="aside__padding aside__p_3">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+    </aside>
+  </div>
+
+  <div class="article__container">
+    <section class="article_1">
+      <img class="article__image" src="/images/image-retro-pcs.jpg" alt="Retro computer">
+      <a href="#" class="article__links">
+        <h3 class="article__number">01</h3>
+        <h4 class="article__title">Reviving Retro PCs</h4>
+        <p class="article__text">What happens when old PCs are given modern upgrades?</p>
+      </a>
+    </section>  
+    <section class="article_2">
+      <img class="article__image" src="/images/image-top-laptops.jpg" alt="Laptop keys">
+      <a href="#" class="article__links">
+        <h3 class="article__number">02</h3>
+        <h4 class="article__title">Top 10 Laptops of 2022</h4>
+        <p class="article__text">Our best picks for various needs and budgets.</p>
+      </a>
+    </section>    
+    <section class="article_3">
+      <img class="article__image" src="/images/image-gaming-growth.jpg" alt="Retro computer">
+      <a href="#" class="article__links">
+        <h3 class="article__number">03</h3>
+        <h4 class="article__title">The Growth of Gaming</h4>
+        <p class="article__text">How the pandemic has sparked fresh opportunities.</p>
+      </a>
+    </section>    
+  </div>
+  
+  <script src="script.js"></script>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</div>  
+</body>
+</html>

@@ -758,7 +758,7 @@ button, .hero__cta {
 
 
 
-/* Extra large devices (large laptops and desktops, 1440px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .px {
         padding: 0;
@@ -782,8 +782,8 @@ button, .hero__cta {
     }    
 
     .header__logo > img {
-        width: 4.0625rem;
-        height: 2.625rem;
+        width: 55px;
+        height: 36px;
         margin-left: 1rem;
     }
 
@@ -810,7 +810,7 @@ button, .hero__cta {
         color: var(--softRed);
     }
     
-    /* Hero GRID */
+    /* Hero GRID 1200x */ 
     
     .wrapper {
         margin-top: 6.4375rem;
@@ -851,7 +851,7 @@ button, .hero__cta {
         background-image: url('/images/image-web-3-desktop.jpg');
         background-repeat: no-repeat;
         background-size: auto;
-        width: 100%;
+        width: 103%;
         height: 46%;
         max-width: 200%;
         max-height: 146%;
@@ -882,9 +882,9 @@ button, .hero__cta {
         width: 146%;
         position: relative;
         left: 3.4375rem;
-        top: -0.5625rem;
+        top: -1.562rem;
         line-height: 1.7;
-        font-size: 1.05vw;
+        font-size: 15px;
     
     }
 
@@ -895,19 +895,22 @@ button, .hero__cta {
 
     .hero__cta {
         position: relative;
-        left: 5.1875rem;
+        left: 60px;
         top: -3.4375rem;
         width: 12.9vw;
         height: 3.3vw;
+        font-size: 12px;
     }
+
+/* Aside 1200x */
 
     .aside__container {
         grid-area: aside;
         max-width: 1000%;
         max-height: 1000%;
-        width: 99%;
+        width: 94%;
         position: relative;
-        left: 2px;
+        left: 24px;
     }
 
     .aside {
@@ -939,17 +942,20 @@ button, .hero__cta {
     }
 
     .aside__p_1 {
-
+        font-size: 14px;
     }
 
     .aside__p_2 {
-        
+        font-size: 14px;
     }
 
     .aside__p_3 {
+        font-size: 14px;
         margin: 0; 
         padding-bottom: 2.4375rem;
     }
+
+/* article 1200x    */
 
     .article__container {
         grid-area: articles;
@@ -975,7 +981,7 @@ button, .hero__cta {
 
     .article_2 {
         position: relative;
-        left: -9px;
+        left: -11px;
         margin: 0;
         width: 22rem;
 
@@ -984,7 +990,7 @@ button, .hero__cta {
     .article_3 {
         margin: 0;
         position: relative;
-        left: 3px;
+        left: 44px;
         width: 22rem;
     }
 

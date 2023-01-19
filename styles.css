@@ -270,7 +270,7 @@ nav {
 
 
 .hero__image {
-    background-image: url('/images/image-web-3-mobile.jpg');
+    background-image: url('images/image-web-3-mobile.jpg');
     min-width: 21.375rem;
     min-height: 18.8125rem;
     background-repeat: no-repeat;
@@ -589,7 +589,7 @@ button, .hero__cta {
     }
 
     .hero__image {
-        background-image: url('/images/image-web-3-desktop.jpg');
+        background-image: url('images/image-web-3-desktop.jpg');
         background-repeat: no-repeat;
         background-size: auto;
         width: 75%;
@@ -846,7 +846,7 @@ button, .hero__cta {
     }
 
     .hero__image {
-        background-image: url('/images/image-web-3-desktop.jpg');
+        background-image: url('images/image-web-3-desktop.jpg');
         background-repeat: no-repeat;
         background-size: auto;
         width: 101%;
@@ -1083,7 +1083,7 @@ button, .hero__cta {
     }
 
     .hero__image {
-        background-image: url('/images/image-web-3-desktop.jpg');
+        background-image: url('images/image-web-3-desktop.jpg');
         background-repeat: no-repeat;
         background-size: auto;
         width: 99%;
@@ -1307,7 +1307,7 @@ button, .hero__cta {
     }
 
     .hero__image {
-        background-image: url('/images/image-web-3-desktop.jpg');
+        background-image: url('images/image-web-3-desktop.jpg');
         background-repeat: no-repeat;
         background-size: 100%;
         width: 106%;

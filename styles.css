@@ -48,7 +48,6 @@ html {
     padding-right: 0;
     left: -3px;
     top: 42px;
-    
 }
 
 .header__menu > span {    
@@ -145,7 +144,6 @@ nav {
     filter: contrast(13);
     z-index: 4;
 }
-
 
 
 /* links in hamburger menu */
@@ -263,9 +261,6 @@ nav {
 
 /* hero section */
 
-.hero > .container {
-    
-}
 
 .image__container {
     position: relative; 
@@ -413,7 +408,6 @@ button, .hero__cta {
 }
 
 
-
 /* aside helper classes */
 .aside__padding {
     padding-left: 1.1875rem;
@@ -488,8 +482,6 @@ button, .hero__cta {
     margin-top: 0;
     padding-left: 1.625rem;  
 }
-
-
 
 /* Breakpoints and media queries */
 
@@ -573,10 +565,6 @@ button, .hero__cta {
     /* Hero GRID 992px*/
     
     .wrapper {
-    /*     margin-top: 6.4375rem;
-        margin-left: 10.3125rem;
-        margin-right: 10.3125rem;
-        margin-bottom: 8.125rem; */
         display: grid;
         grid-template-rows: 99px 1fr 1fr;
         /* grid-template-columns: repeat(auto-fit, minmax(730px, 1fr)); */
@@ -586,26 +574,18 @@ button, .hero__cta {
         "hero hero aside"
         "articles articles articles";
         overflow-x: hidden;
-
         margin:0;
         padding: 0;
     }
 
-
-
     header {
         grid-area: header;
-        
         margin-top: 46px;
     }
 
     .hero {
         grid-area: hero;
         display: flex;
-    }
-
-    .image__container {
-        
     }
 
     .hero__image {
@@ -639,7 +619,6 @@ button, .hero__cta {
         width: 35%;
     }
     
-
     .hero__p {
         width: 44%;
         position: relative;
@@ -647,7 +626,6 @@ button, .hero__cta {
         top: -91px;
         line-height: 1.7;
         font-size: 12px;
-    
     }
 
     .cta__container {
@@ -789,7 +767,6 @@ button, .hero__cta {
 } 
 
 
-
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) and (max-width: 1439px) {
     .px {
@@ -857,14 +834,7 @@ button, .hero__cta {
         "hero hero aside"
         "hero hero aside"
         "articles articles articles"
-
-/*      margin-top: 7.23%;
-        margin-left: 11.59%;
-        margin-right: 11.59%;
-        margin-bottom: 9.15%; */
     }
-
-
 
     header {
         grid-area: header;
@@ -873,10 +843,6 @@ button, .hero__cta {
     .hero {
         grid-area: hero;
         display: flex;
-    }
-
-    .image__container {
-        
     }
 
     .hero__image {
@@ -903,13 +869,11 @@ button, .hero__cta {
     .hero__text > h1 {
         position: relative;
         top: -20px;
-        /* font-size: 54px; */
         line-height: 1.1;
         left: -15px;
         font-size: 3.75vw;
     }
     
-
     .hero__p {
         width: 141%;
         position: relative;
@@ -917,7 +881,6 @@ button, .hero__cta {
         top: -1.562rem;
         line-height: 1.7;
         font-size: 15px;
-    
     }
 
     .cta__container {
@@ -1042,9 +1005,6 @@ button, .hero__cta {
 } 
 
 
-
-
-
 /* Extra large devices (large laptops and desktops, 1440px and up) */
 @media only screen and (min-width: 1440px) {
 
@@ -1086,7 +1046,6 @@ button, .hero__cta {
     .link {
         text-decoration: none;
         color: inherit;
-    /*     padding-right: 2.75rem; */
         padding-right: 3.05vw;
         justify-content: flex-end;
         transition: color 150ms ease-in-out;
@@ -1107,20 +1066,12 @@ button, .hero__cta {
         margin-bottom: 8.125rem;
         display: grid;
         grid-template-rows: 99px 1fr 1fr;
-        /* grid-template-columns: repeat(auto-fit, minmax(730px, 1fr)); */
         grid-template-areas: 
         "header header header"
         "hero hero aside"
         "hero hero aside"
         "articles articles articles"
-
-/*      margin-top: 7.23%;
-        margin-left: 11.59%;
-        margin-right: 11.59%;
-        margin-bottom: 9.15%; */
     }
-
-
 
     header {
         grid-area: header;
@@ -1129,10 +1080,6 @@ button, .hero__cta {
     .hero {
         grid-area: hero;
         display: flex;
-    }
-
-    .image__container {
-        
     }
 
     .hero__image {
@@ -1159,13 +1106,11 @@ button, .hero__cta {
     .hero__text > h1 {
         position: relative;
         top: -25px;
-        /* font-size: 54px; */
         line-height: 1.1;
         left: -15px;
         font-size: 3.75vw;
     }
     
-
     .hero__p {
         width: 146%;
         position: relative;
@@ -1173,7 +1118,6 @@ button, .hero__cta {
         top: -1.562rem;
         line-height: 1.7;
         font-size: 1.05vw;
-    
     }
 
     .cta__container {
@@ -1227,14 +1171,6 @@ button, .hero__cta {
         font-size: 1.25vw;
     }
 
-    .aside__p_1 {
-        
-    }
-
-    .aside__p_2 {
-        
-    }
-
     .aside__p_3 {
         margin: 0; 
         padding-bottom: 2.4375rem;
@@ -1267,7 +1203,6 @@ button, .hero__cta {
         left: -9px;
         margin: 0;
         width: 22rem;
-
     }
 
     .article_3 {
@@ -1288,6 +1223,7 @@ button, .hero__cta {
 
     .article__title {
         font-size: 1.25vw;
+        width: 102%;
     }
 }
 
@@ -1332,7 +1268,6 @@ button, .hero__cta {
     .link {
         text-decoration: none;
         color: inherit;
-    /*     padding-right: 2.75rem; */
         padding-right: 3.05vw;
         justify-content: flex-end;
         transition: color 150ms ease-in-out;
@@ -1353,15 +1288,12 @@ button, .hero__cta {
         margin-bottom: 8.125rem;
         display: grid;
         grid-template-rows: 99px 1fr 1fr;
-        /* grid-template-columns: repeat(auto-fit, minmax(730px, 1fr)); */
         grid-template-areas: 
         "header header header"
         "hero hero aside"
         "hero hero aside"
         "articles articles articles"
     }
-
-
 
     header {
         grid-area: header;
@@ -1374,15 +1306,11 @@ button, .hero__cta {
         display: flex;
     }
 
-    .image__container {
-        
-    }
-
     .hero__image {
         background-image: url('/images/image-web-3-desktop.jpg');
         background-repeat: no-repeat;
         background-size: 100%;
-        width: 104%;
+        width: 106%;
         height: 60%;
         max-width: 1000%;
         max-height: 1000%;
@@ -1406,20 +1334,18 @@ button, .hero__cta {
         left: -15px;
         width: 130%;
         display: inline;
-      
     }
     
 
     .hero__p {
-        width: 164%;
+        width: 133%;
         position: relative;
-        left: 147px;
-        top: 2px;
-        line-height: 1.4;
-        font-size: 21px;
+        left: 103px;
+        top: 0px;
+        line-height: 1.6;
+        font-size: 19px;
         height: 20%;
         display: inline-block;
-    
     }
 
     .cta__container {
@@ -1442,9 +1368,9 @@ button, .hero__cta {
         grid-area: aside;
         max-width: 1000%;
         max-height: 1000%;
-        width: 85%;
+        width: 84%;
         position: relative;
-        left: 66px;
+        left: 72px;
         height: 113%;
     }
 
@@ -1534,7 +1460,6 @@ button, .hero__cta {
         left: 32px;
         margin: 0;
         width: 30%;
-
     }
 
     .article_3 {

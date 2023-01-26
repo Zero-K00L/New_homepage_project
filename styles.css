@@ -87,10 +87,6 @@ nav {
 
 /* animation for hamburger button */
 
-.header__open {  /* turns on animation for hamburger menu */
-    
-}
-
 .header__open > span:first-child {
     transform: rotate(45deg);
 }
@@ -309,10 +305,17 @@ button, .hero__cta {
     margin-bottom: 4rem;
     font-weight: 700;
     font-family: Inter, sans-serif;
+    cursor: pointer;
 }
 
 .hero__cta:hover {
     background-color: var(--veryDarkBlue);
+}
+
+.hero__cta:active {
+    background-color: var(--offWhite);
+    color: var(--darkGrayishBlue);
+    border: 2px solid var(--darkGrayishBlue);
 }
 
 /* Aside */
@@ -567,7 +570,6 @@ button, .hero__cta {
     .wrapper {
         display: grid;
         grid-template-rows: 99px 1fr 1fr;
-        /* grid-template-columns: repeat(auto-fit, minmax(730px, 1fr)); */
         grid-template-areas: 
         "header header header"
         "hero hero aside"
@@ -807,7 +809,6 @@ button, .hero__cta {
     .link {
         text-decoration: none;
         color: inherit;
-    /*     padding-right: 2.75rem; */
         padding-right: 3.05vw;
         justify-content: flex-end;
         transition: color 150ms ease-in-out;
@@ -828,7 +829,6 @@ button, .hero__cta {
         margin-bottom: 8.125rem;
         display: grid;
         grid-template-rows: 99px 1fr 1fr;
-        /* grid-template-columns: repeat(auto-fit, minmax(730px, 1fr)); */
         grid-template-areas: 
         "header header header"
         "hero hero aside"
